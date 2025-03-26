@@ -1,7 +1,11 @@
-# distributed login pipeline fastify ws redis
-Secure, scalable login system built with Fastify, Redis, RabbitMQ, and WebSocket. Handles authentication via message queues, processes login asynchronously, and responds to clients in real-time using WebSocket. Ideal for SaaS, fintechs, or high-availability systems.
-
 # 🔐 Distributed Login System with Fastify + Redis + AMQP + WebSocket
+
+![Build](https://img.shields.io/badge/build-passing-brightgreen)
+![Redis](https://img.shields.io/badge/cache-redis-red)
+![RabbitMQ](https://img.shields.io/badge/queue-rabbitmq-orange)
+![WebSocket](https://img.shields.io/badge/websocket-enabled-blue)
+![License](https://img.shields.io/badge/license-ISC-lightgrey)
+![Platform](https://img.shields.io/badge/platform-nodejs-yellow)
 
 A secure, asynchronous login architecture built with **Fastify**, **Redis**, **RabbitMQ**, and **WebSocket**, ideal for SaaS and fintech applications. The system is fully decoupled and real-time ready, processing authentication via message queues and responding to clients using WebSocket.
 
@@ -124,4 +128,4 @@ This system separates concerns:
 ---
 
 ## 📝 License
-MIT
+ISC
