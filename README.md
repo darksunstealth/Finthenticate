@@ -99,12 +99,6 @@ This graph shows the message flow from frontend to the core services.
 
 ---
 
-## 🧪 Tests
-
-```bash
-npm test
-```
-
 ---
 
 ## 📫 Contact
@@ -119,4 +113,4 @@ WaaS Project - Auth & Login. Developed by ME .
 ---
 
 ## 📝 License
-ISC
+MIT
