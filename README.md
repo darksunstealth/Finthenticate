@@ -10,7 +10,7 @@
 A secure, asynchronous login architecture built with **Fastify**, **Redis**, **RabbitMQ**, and **WebSocket**, ideal for SaaS and fintech applications. The system is fully decoupled and real-time ready, processing authentication via message queues and responding to clients using WebSocket.
 
 ---
-
+```
 ## 📊 Architecture Overview
 
 ```
