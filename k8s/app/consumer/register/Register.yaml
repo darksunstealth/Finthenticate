@@ -1,0 +1,58 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: register-consumer
+  labels:
+    app: register-consumer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: register-consumer
+  template:
+    metadata:
+      labels:
+        app: register-consumer
+    spec:
+      containers:
+        - name: register-consumer
+          image: samirsauma121/register-consumer:latest  # Substitua pelo repositório correto da imagem
+          env:
+            - name: AMQP_URL
+              value: amqp://guest:guest@amqp:5672/
+            - name: WEBSOCKET_URL
+              value: ws://websocket-server:8080
+            - name: JWT_SECRET
+              value: ADSASOIDJASIDJ
+            - name: REDIS_HOST
+              value: redis
+            - name: REDIS_URL
+              value: redis://redis:6379
+            - name: RABBITMQ_USERNAME
+              value: guest
+            - name: RABBITMQ_PASSWORD
+              value: guest
+            - name: RABBITMQ_HOSTNAME
+              value: amqp.default.svc.cluster.local
+            - name: RABBITMQ_PORT
+              value: "5672"
+            - name: RABBITMQ_VHOST
+              value: /
+            - name: REDIS_URL
+              value: redis://redis.default.svc.cluster.local:6379
+          ports:
+            - containerPort: 3000
+      imagePullSecrets:
+        - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: register-consumer
+spec:
+  selector:
+    app: register-consumer
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000

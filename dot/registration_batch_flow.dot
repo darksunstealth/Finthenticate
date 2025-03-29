@@ -1,0 +1,18 @@
+// Registration Flow with Producer, Batch, AMQP and Redis Pipeline
+digraph RegistrationBatchFlow {
+    rankdir=LR;
+    node [shape=box style=filled color=lightgrey fontname=Arial];
+
+    A [label="Frontend\n(Client)"];
+    B [label="Producer API\n/register"];
+    C [label="Validation + Buffer + Batch"];
+    D [label="AMQP Queue\n(RabbitMQ)"];
+    E [label="Consumer\n(Isolated Microservice)"];
+    F [label="Redis\n(Pipeline + Batch Save)"];
+
+    A -> B [label="POST /auth/register"];
+    B -> C [label="Validate, normalize,\naccumulate in buffer"];
+    C -> D [label="Publish to queue"];
+    D -> E [label="Deliver message"];
+    E -> F [label="Save using Redis pipeline\n(Multiple HSETs)"];
+}

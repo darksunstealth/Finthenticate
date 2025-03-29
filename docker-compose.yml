@@ -1,0 +1,53 @@
+version: "3.8"
+
+services:
+
+
+  rabbitmq:
+    image: rabbitmq:3-management
+    environment:
+      RABBITMQ_DEFAULT_USER: guest
+      RABBITMQ_DEFAULT_PASS: guest
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+
+  login-consumer:
+    build:
+      context: ./app/consumers/login
+      dockerfile: Dockerfile
+    image: samirsauma121/login-consumer:latest
+ 
+
+  login-producer:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    image: samirsauma121/login-producer:latest
+
+
+  register-producer:
+    build:
+      context: ./app/producers/register/
+      dockerfile: Dockerfile
+    image: samirsauma121/register-producer:latest
+
+
+
+  register-consumer:
+    build:
+      context: ./app/consumers/register/
+      dockerfile: Dockerfile
+    image: samirsauma121/register-consumer:latest
+  finthenticate:
+    build:
+      context: ./finthenticate/
+      dockerfile: Dockerfile
+    image: samirsauma121/finthenticate:latest
+
+
+  websocket-server:
+    build:
+      context: ./services/wss
+      dockerfile: Dockerfile
+    image: samirsauma121/websocket-server:latest

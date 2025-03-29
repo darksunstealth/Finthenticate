@@ -1,0 +1,37 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: amqp
+spec:
+  selector:
+    app: amqp
+  ports:
+    - name: amqp-port
+      protocol: TCP
+      port: 5672
+      targetPort: 5672
+    - name: amqp-management
+      protocol: TCP
+      port: 15672
+      targetPort: 15672
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: amqp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: amqp
+  template:
+    metadata:
+      labels:
+        app: amqp
+    spec:
+      containers:
+        - name: amqp
+          image: rabbitmq:3-management
+          ports:
+            - containerPort: 5672
+            - containerPort: 15672

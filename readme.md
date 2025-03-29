@@ -1,0 +1,1 @@
+AuthX: Scalable Real-time Authentication System using WebSocket, Redis, AMQP and Kubernetes

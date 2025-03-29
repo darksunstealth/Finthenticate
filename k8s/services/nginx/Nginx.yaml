@@ -1,0 +1,105 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: nginx-load-balancer
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx-load-balancer
+  template:
+    metadata:
+      labels:
+        app: nginx-load-balancer
+    spec:
+      containers:
+        - name: nginx
+          image: nginx:latest
+          volumeMounts:
+            - name: nginx-config
+              mountPath: /etc/nginx/nginx.conf
+              subPath: nginx.conf
+          ports:
+            - containerPort: 80
+      volumes:
+        - name: nginx-config
+          configMap:
+            name: nginx-config
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  nginx.conf: |
+    events {}
+
+    http {
+        upstream websocket_servers {
+            server websocket-server.default.svc.cluster.local:8080;
+        }
+
+        upstream frontend_servers {
+            server finthenticate-frontend.default.svc.cluster.local:80;
+        }
+
+        upstream login_producer {
+            server login-producer.default.svc.cluster.local:3001;  # Corrigido de 3000 para 3001
+        }
+
+        upstream register_producer {
+            server register-producer.default.svc.cluster.local:3000;
+        }
+
+        server {
+            listen 80;
+
+            # WebSocket route
+            location /ws {
+                proxy_pass http://websocket_servers;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection "Upgrade";
+                proxy_set_header Host $host;
+            }
+
+            # Producer API routes
+            location /api/v1/auth/login {
+                proxy_pass http://login_producer;
+                proxy_http_version 1.1;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+            }
+
+            location /api/v1/auth/register {
+                proxy_pass http://register_producer;
+                proxy_http_version 1.1;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+            }
+
+            # Default route to frontend
+            location / {
+            proxy_pass http://frontend_servers;
+            proxy_http_version 1.1;
+            proxy_set_header Host $host;
+            proxy_set_header X-Real-IP $remote_addr;
+            proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+            proxy_set_header X-Forwarded-Proto $scheme;
+        }
+
+        }
+    }
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: nginx-load-balancer
+spec:
+  selector:
+    app: nginx-load-balancer
+  ports:
+    - port: 80
+      targetPort: 80
+      protocol: TCP
+  type: LoadBalancer

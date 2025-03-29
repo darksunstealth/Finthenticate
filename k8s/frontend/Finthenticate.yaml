@@ -1,0 +1,84 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: finthenticate-frontend
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: finthenticate-frontend
+  template:
+    metadata:
+      labels:
+        app: finthenticate-frontend
+    spec:
+      containers:
+        - name: finthenticate-frontend
+          image: samirsauma121/finthenticate-frontend:latest
+          imagePullPolicy: Always
+          env:
+            - name: NODE_ENV
+              value: production
+            - name: REACT_APP_API_URL
+              value: "http://nginx-load-balancer.default.svc.cluster.local"
+          ports:
+            - containerPort: 80
+          resources:
+            requests:
+              memory: "128Mi"
+              cpu: "100m"
+            limits:
+              memory: "256Mi"
+              cpu: "200m"
+      imagePullSecrets:
+        - name: regcred
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: finthenticate-frontend
+spec:
+  selector:
+    app: finthenticate-frontend
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 80
+---
+# Update the Nginx ConfigMap to include routing for the frontend
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: nginx-config
+data:
+  nginx.conf: |
+    events {}
+
+    http {
+        upstream websocket_servers {
+            server websocket-server.default.svc.cluster.local:8080;
+        }
+
+        upstream frontend_servers {
+            server finthenticate-frontend.default.svc.cluster.local:80;
+        }
+
+        server {
+            listen 80;
+
+            location /ws {
+                proxy_pass http://websocket_servers;
+                proxy_http_version 1.1;
+                proxy_set_header Upgrade $http_upgrade;
+                proxy_set_header Connection "Upgrade";
+                proxy_set_header Host $host;
+            }
+
+            location / {
+                proxy_pass http://frontend_servers;
+                proxy_http_version 1.1;
+                proxy_set_header Host $host;
+                proxy_set_header X-Real-IP $remote_addr;
+            }
+        }
+    }

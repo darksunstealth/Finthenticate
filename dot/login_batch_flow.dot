@@ -1,0 +1,27 @@
+// Login-Auth Application Flow
+digraph {
+    rankdir=LR;
+    node [shape=box style=filled color=lightgrey fontname=Arial];
+
+    A [label="Client"]
+    B [label="API Gateway"]
+    C [label="Application"]
+    D [label="WebSocket Server"]
+    E [label="Redis Cache"]
+    F [label="AMQP Queue (RabbitMQ)"]
+    G [label="Email Service"]
+    H [label="Database (PostgreSQL)"]
+    I [label="Kubernetes (Orchestration)"]
+
+    A -> B
+    B -> C
+    C -> D [label="Broadcast / Realtime"]
+    C -> E [label="LRU Cache Lookup"]
+    C -> F [label="Message Producer"]
+    F -> G [label="Email Consumer"]
+    C -> H [label="Persistence"]
+    I -> C [label="Deploy / Autoscale"]
+    I -> D [label="Deploy WS"]
+    I -> F [label="Deploy RabbitMQ"]
+    I -> E [label="Deploy Redis"]
+}
