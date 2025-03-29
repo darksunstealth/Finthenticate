@@ -14,114 +14,132 @@ A secure, asynchronous login architecture built with **Fastify**, **Redis**, **R
 ## 📊 Architecture Overview
 
 ```
-Client → LoginController → Redis + AMQP (login_queue)
-                            ↓
-                   LoginWorker consumes batch
-                            ↓
-      Verifies device & session → Redis
-                            ↓
-              Generates JWT & Refresh Token
-                            ↓
-            Responds via WebSocket (connectionId)
+
+# 🛡️ Login/Auth WaaS - Modular Authentication System
+
+This project is a complete authentication system with an event-driven microservices architecture, using WebSocket, AMQP, Redis, and React frontend. It can be used as "Auth as a Service" (WaaS).
+
+---
+
+## 📦 Project Structure
+
+```
+login-auth/
+├── app.js
+├── app/
+│   ├── producers/
+│   │   ├── register/
+│   │   └── login/
+│   └── consumers/
+│       ├── register/
+│       └── login/
+├── services/
+│   ├── wss/
+│   ├── loginService/
+│   ├── mail/
+│   ├── redis/
+│   └── amqp/
+├── logger/
+├── routes/
+├── finthenticate/  # React Frontend
 ```
 
-![Login Flow Diagram](./login_flow_diagram.png)
+---
+
+## 🚀 Technologies Used
+
+- Node.js
+- Express
+- Redis
+- RabbitMQ (AMQP)
+- WebSocket
+- React
+- LRU Cache
+- Winston Logger
+- Email Queue
 
 ---
 
-## ⚙️ Tech Stack
+## 🔄 System Workflow
 
-| Tool        | Usage                               |
-|-------------|-------------------------------------|
-| Fastify     | HTTP Server                         |
-| Redis       | Cache, Sessions, Login Attempts     |
-| RabbitMQ    | AMQP queue (login_queue)            |
-| WebSocket   | Real-time login response            |
-| Argon2id    | Password hashing                    |
-| Speakeasy   | 2FA (Two-Factor Authentication)     |
-| JSON Web Token | Session & Auth Token management |
+1. **User accesses the frontend (React)**
+2. **Frontend connects via WebSocket to the `wss-server`**
+3. **Sends login or registration data to a Producer**
+4. **Producer sends the data to a RabbitMQ queue**
+5. **Consumer listens to the queue and processes the data**
+6. **Consumer interacts with Redis, authentication, email, etc.**
+7. **Response is sent back to the user's WebSocket**
 
 ---
 
-## 🚀 Features
-
-✅ Distributed login with retry-safe worker  
-✅ Session management in Redis  
-✅ Token + Refresh token issuance  
-✅ Device verification + temporary token  
-✅ Secure password hashing (argon2id)  
-✅ Real-time feedback using WebSocket  
-✅ 2FA Support using TOTP
-
----
-
-## 🧪 How to Run Locally
+## 🔧 How to Run the Project
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
-cd YOUR_REPO_NAME
-docker-compose up --build
-```
+# Backend
+cd login-auth
+npm install
+node app.js
 
-Then access:
-- Fastify API: http://localhost:3001
-- WebSocket Server: ws://localhost:8080
-- RabbitMQ UI: http://localhost:15672 (user/pass: guest)
-
----
-
-## 📂 Project Structure
-
-```
-backend/
-├── app/
-│   └── workers/login/         # LoginWorker + AMQP consumer
-│   └── producers/login/       # LoginController (API layer)
-├── services/
-│   ├── redis/                 # Redis manager
-│   ├── wss/                   # WebSocket server + manager
-├── logger/                    # Winston-based logger
-├── models/                    # Sequelize or Redis model mappings
-└── server.js                  # Fastify entry point
+# Frontend
+cd finthenticate
+npm install
+npm start
 ```
 
 ---
 
-## 🔒 Security Considerations
-- Strong password enforcement (min length, complexity, entropy)
-- Login rate limiting via Redis ZSET
-- Token TTL and refresh control via Redis
-- Detection of suspicious input patterns (XSS, SQLi, etc.)
+## 📌 Key Components Explained
+
+- `services/wss/`: WebSocket server with message routing
+- `services/loginService/`: Login logic (password hashing, validation)
+- `services/mail/`: Background email service with queue
+- `services/redis/`: Redis connection and caching
+- `services/amqp/`: RabbitMQ communication
+- `producers/`: Send messages to the queue
+- `consumers/`: Listen to the queue and handle heavy logic
 
 ---
 
-## ✨ Use Cases
-- SaaS login infrastructure
-- Crypto exchanges & OTC desks
-- Microservices auth module
-- Projects needing real-time response without polling
+## 📊 Dependency Diagram (DOT)
+
+```dot
+digraph G {
+    rankdir=LR;
+    Frontend -> WebSocket;
+    WebSocket -> MessageRouter;
+    MessageRouter -> LoginProducer;
+    MessageRouter -> RegisterProducer;
+    LoginProducer -> AMQP;
+    RegisterProducer -> AMQP;
+    AMQP -> LoginConsumer;
+    AMQP -> RegisterConsumer;
+    LoginConsumer -> LoginService;
+    LoginService -> Redis;
+    RegisterConsumer -> Redis;
+    RegisterConsumer -> EmailService;
+    EmailService -> EmailQueue;
+    Logger -> FileSystem;
+}
+```
+
+This graph shows the message flow from frontend to the core services.
 
 ---
 
-## 🧠 Why this architecture?
-> "Authentication is not just verifying a password — it's about control, scalability, and timing."
+## 🧪 Tests
 
-This system separates concerns:
-- **LoginController** handles validation
-- **Redis** stores only what's needed
-- **AMQP** decouples heavy logic from request/response
-- **LoginWorker** handles processing in batch
-- **WebSocket** gives real-time feedback with zero wait
+```bash
+npm test
+```
 
 ---
 
-## 📌 Tags
-#NodeJS #Fastify #Redis #RabbitMQ #WebSocket #Authentication #AMQP #LoginSystem #JWT
+## 📫 Contact
+
+WaaS Project - Auth & Login. Developed by ME .
 
 ---
 
-## 🧑‍💻 Author
-**Samir Sauma** – solo dev behind a complete distributed crypto exchange stack. Passionate about real-time systems, async design, and resilient architecture.
 
 > If you like this project, give it a ⭐ and share it!
 
