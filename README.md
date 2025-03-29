@@ -52,7 +52,6 @@ login-auth/
 - Redis
 - RabbitMQ
 - WebSocket
-- LRU Cache
 - Winston Logger
 - Email Queue System
 
