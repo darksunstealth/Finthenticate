@@ -23,26 +23,6 @@ This project is a complete authentication system with an event-driven microservi
 
 ## 📦 Project Structure
 
-```
-login-auth/
-├── app.js
-├── app/
-│   ├── producers/
-│   │   ├── register/
-│   │   └── login/
-│   └── consumers/
-│       ├── register/
-│       └── login/
-├── services/
-│   ├── wss/
-│   ├── loginService/
-│   ├── mail/
-│   ├── redis/
-│   └── amqp/
-├── logger/
-├── routes/
-├── finthenticate/  # React Frontend
-```
 
 ---
 
