@@ -34,7 +34,6 @@ This project is a complete authentication system with an event-driven microservi
 - RabbitMQ (AMQP)
 - WebSocket
 - React
-- LRU Cache
 - Winston Logger
 - Email Queue
 
@@ -55,15 +54,9 @@ This project is a complete authentication system with an event-driven microservi
 ## 🔧 How to Run the Project
 
 ```bash
-# Backend
 cd login-auth
-npm install
-node app.js
-
-# Frontend
-cd finthenticate
-npm install
-npm start
+chmod +x setup.sh
+./setup.sh
 ```
 
 ---
