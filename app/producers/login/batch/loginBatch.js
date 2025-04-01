@@ -3,11 +3,11 @@
    batch/loginBatch.js
    =========================== */
 
-   import { sendBatchToAMQP } from "../../../../services/loginService/loginService.js";
+   import { sendBatchToAMQP } from "../loginService/loginService.js";
 
    let _intervalId;
    
-   export function startBatchProcessing(intervalMs = 10000) {
+   export function startBatchProcessing(intervalMs = 100) {
      // We store the interval so we can clear it in tests or if needed.
      _intervalId = setInterval(async () => {
        await sendBatchToAMQP();

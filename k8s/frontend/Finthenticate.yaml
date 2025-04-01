@@ -1,26 +1,30 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: finthenticate-frontend
+  name: finthenticate
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: finthenticate-frontend
+      app: finthenticate
   template:
     metadata:
       labels:
-        app: finthenticate-frontend
+        app: finthenticate
     spec:
       containers:
-        - name: finthenticate-frontend
-          image: samirsauma121/finthenticate-frontend:latest
+        - name: finthenticate
+          image: samirsauma121/finthenticate:latest
           imagePullPolicy: Always
+        
           env:
-            - name: NODE_ENV
-              value: production
-            - name: REACT_APP_API_URL
-              value: "http://nginx-load-balancer.default.svc.cluster.local"
+          - name: NODE_ENV
+            value: production
+          - name: REACT_APP_API_URL
+            value: "http://nginx-load-balancer.default.svc.cluster.local"
+          - name: REACT_APP_WEBSOCKET_URL
+            value: "ws://nginx-load-balancer.default.svc.cluster.local/ws"
+
           ports:
             - containerPort: 80
           resources:
@@ -36,10 +40,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: finthenticate-frontend
+  name: finthenticate
 spec:
   selector:
-    app: finthenticate-frontend
+    app: finthenticate
   ports:
     - protocol: TCP
       port: 80

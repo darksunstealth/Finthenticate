@@ -1,0 +1,21 @@
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mStarting register consumer service...[0m
+[36m2025-04-01 11:03:41[0m [34m[DEBUG][39m: [33m[AMQPManager:connect] Iniciando conexão com RabbitMQ...[0m
+[36m2025-04-01 11:03:41[0m [34m[DEBUG][39m: [33m[AMQPManager:connect] Connection String: amqp://guest:guest@localhost:5672/[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33m[AMQPManager:connect] Conexão com RabbitMQ estabelecida.[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mAMQP connection established[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mRedis cache manager initialized[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mRegister controller initialized[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mRegister consumers successfully initialized.[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mRegister consumer now listening for messages[0m
+[36m2025-04-01 11:03:41[0m [34m[DEBUG][39m: [33mMessage received:[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mMESSAGE VALUE: {"action":"register_batch","data":[{"userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","email":"samirsauma@gmail.com","password":"$argon2id$v=19$m=65536,t=3,p=4$7gSdu/7YeQ/7EFyM+P/Vhw$5mD6sGCpE3gLpDwbK8D6za5jxhhvSSIPYGXTtzDLN4Y","confirmationCode":"287687","confirmationCodeExpires":"2025-03-31T12:54:57.106Z","verified":false,"terms":true,"deviceInfo":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0","ipAddress":"127.0.0.1","createdAt":"2025-03-31T12:44:57.106Z"}]}[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mProcessando batch com 1 usuários[0m
+[36m2025-04-01 11:03:41[0m [34m[DEBUG][39m: [33mDados preparados para o usuário: samirsauma@gmail.com (db3432ad-d6f4-411d-a2dd-d9f7bda823ca)[0m
+[36m2025-04-01 11:03:41[0m [34m[DEBUG][39m: [33mExecutando pipeline para 1 usuários[0m
+[36m2025-04-01 11:03:41[0m [32m[INFO][39m: [33mBatch processado com sucesso: 1 usuários[0m
+[36m2025-04-01 11:04:06[0m [34m[DEBUG][39m: [33mMessage received:[0m
+[36m2025-04-01 11:04:06[0m [32m[INFO][39m: [33mMESSAGE VALUE: {"action":"register_batch","data":[{"userId":"e519902a-b896-4be4-95c0-fb99239d6947","email":"samirsauma2@gmail.com","password":"$argon2id$v=19$m=65536,t=3,p=4$0nxz83J+FQixow0qhHGT3g$pmsTl4KD0J34U7hBaODwViKNP+SfwrWjFOOLSb8bD7M","confirmationCode":"675333","confirmationCodeExpires":"2025-04-01T10:14:05.995Z","verified":false,"terms":true,"deviceInfo":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0","ipAddress":"127.0.0.1","createdAt":"2025-04-01T10:04:05.995Z"}]}[0m
+[36m2025-04-01 11:04:06[0m [32m[INFO][39m: [33mProcessando batch com 1 usuários[0m
+[36m2025-04-01 11:04:06[0m [34m[DEBUG][39m: [33mDados preparados para o usuário: samirsauma2@gmail.com (e519902a-b896-4be4-95c0-fb99239d6947)[0m
+[36m2025-04-01 11:04:06[0m [34m[DEBUG][39m: [33mExecutando pipeline para 1 usuários[0m
+[36m2025-04-01 11:04:06[0m [32m[INFO][39m: [33mBatch processado com sucesso: 1 usuários[0m

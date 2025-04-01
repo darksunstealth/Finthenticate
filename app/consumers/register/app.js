@@ -16,29 +16,39 @@ class ConsumerManager {
 
     async initializeConsumers() {
         try {
+            // Consume from the correct queue: register_user_queue
             await this.amqpManager.consume("register_user_queue", async (message) => {
-                this.logger.debug("Mensagem recebida:", message);
-              this.logger.info(`MESSAGE VALUE ${JSON.stringify(message)}`)
+                this.logger.debug("Message received:", message);
+                this.logger.info(`MESSAGE VALUE: ${JSON.stringify(message)}`);
 
                 await this.registerController.handleMessage(message);
             });
-            this.logger.info("Consumidores inicializados com sucesso.");
+            this.logger.info("Register consumers successfully initialized.");
         } catch (error) {
-            this.logger.error("Erro ao inicializar consumidores:", error);
+            this.logger.error("Error initializing consumers:", error);
         }
     }
 }
 
+// Main initialization function
 (async function start() {
     try {
+        logger.info("Starting register consumer service...");
+
+        // Initialize AMQP connection
         const amqpManager = new AMQPManager(logger);
         await amqpManager.connect();
+        logger.info("AMQP connection established");
 
+        // Initialize Redis connection
         const redisCacheManager = new RedisCacheManager();
-        // Removida a chamada para redisCacheManager.connect() pois não existe esse método
+        logger.info("Redis cache manager initialized");
 
+        // Create the controller for handling registration messages
         const registerController = new RegisterController(logger, redisCacheManager);
+        logger.info("Register controller initialized");
 
+        // Create and start the consumer manager
         const consumerManager = new ConsumerManager(
             logger,
             redisCacheManager,
@@ -46,8 +56,12 @@ class ConsumerManager {
             registerController
         );
 
+        // Start consuming messages
         await consumerManager.initializeConsumers();
+        logger.info("Register consumer now listening for messages");
+
     } catch (error) {
-        logger.error("Erro na inicialização:", error);
+        logger.error("Error during initialization:", error);
+        process.exit(1);
     }
 })();

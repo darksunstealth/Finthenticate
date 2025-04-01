@@ -3,8 +3,8 @@
    producers/loginProducer.js
    =========================== */
 
-   import registerLoginRoutes from "../../../routes/producer/producerLoginRoutes.js";
-   import { initLoginService } from "../../../services/loginService/loginService.js";
+   import registerLoginRoutes from "./routes/producer/producerLoginRoutes.js";
+   import { initLoginService } from "./loginService/loginService.js";
    import { startBatchProcessing } from "./batch/loginBatch.js";
    
    class LoginProducer {

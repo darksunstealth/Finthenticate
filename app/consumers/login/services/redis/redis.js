@@ -42,32 +42,37 @@ class RedisCacheManager {
       console.error('Redlock error no cliente Redis:', err);
     });
   }
-  
-  async set(key, value, options = {}) {
-    return this.redisClient.set(key, value, options);
+// In your RedisCacheManager class
+async set(key, value, options = {}) {
+  if (typeof options === 'string' && options === 'EX' && arguments.length === 4) {
+    // Handle the case where 'EX' is passed as a string followed by seconds
+    const seconds = arguments[3];
+    return this.redisClient.set(key, value, 'EX', seconds);
   }
+  return this.redisClient.set(key, value, options);
+}
 
   async get(key) {
     return this.redisClient.get(key);
   }
 
-  async hSet(key, field, value) {
+  async hset(key, field, value) {
     return this.redisClient.hset(key, field, value);
   }
 
-  async hGet(key, field) {
+  async hget(key, field) {
     return this.redisClient.hget(key, field);
   }
 
-  async hGetAll(key) {
+  async hgetall(key) {
     return this.redisClient.hgetall(key);
   }
 
-  async zAdd(key, score, value) {
+  async zadd(key, score, value) {
     return this.redisClient.zadd(key, score, value);
   }
 
-  async zCount(key, min, max) {
+  async zcount(key, min, max) {
     return this.redisClient.zcount(key, min, max);
   } 
   
@@ -97,7 +102,16 @@ class RedisCacheManager {
   async del(key) {
     return this.redisClient.del(key);
   }
-
+  async ping() {
+    try {
+      const result = await this.redisClient.ping();
+      console.log('Redis connection verified:', result);
+      return result; // Should return "PONG"
+    } catch (error) {
+      console.error('Redis connection failed:', error);
+      throw error;
+    }
+  }
   /**
    * Cria um pipeline para operações em lote no Redis.
    * @returns {Pipeline} - Instância do pipeline do ioredis.

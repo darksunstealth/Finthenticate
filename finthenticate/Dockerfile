@@ -10,10 +10,6 @@ RUN npm install --omit=dev
 # Copy application code
 COPY . .
 
-# Create .env file at build time with environment variables
-RUN echo "REACT_APP_API_BASE_URL=${REACT_APP_API_BASE_URL:-/api}" > .env
-RUN echo "REACT_APP_WS_URL=${REACT_APP_WS_URL:-ws://localhost/ws}" >> .env
-
 # Build the React app
 RUN npm run build
 

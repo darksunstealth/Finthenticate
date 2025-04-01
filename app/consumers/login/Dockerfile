@@ -15,4 +15,4 @@ COPY wait-for.sh /wait-for.sh
 RUN chmod +x /wait-for.sh
 
 # Use wait-for script before starting the application
-CMD ["/bin/sh", "-c", "/wait-for.sh amqp:5672 -- node consumer.js"]
+CMD ["/bin/sh", "-c", "/wait-for.sh amqp:5672 -- node app.js"]

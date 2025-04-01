@@ -3,10 +3,10 @@ kind: Service
 metadata:
   name: frontend-lb
   labels:
-    app: finthenticate-frontend
+    app: finthenticate
 spec:
   selector:
-    app: finthenticate-frontend
+    app: finthenticate
   ports:
     - protocol: TCP
       port: 80

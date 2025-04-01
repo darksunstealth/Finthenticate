@@ -1,96 +1,53 @@
-import amqp from 'amqplib';
+import amqp from "amqplib";
+import dotenv from "dotenv";
+dotenv.config();
 
-class AMQPManager {
-  constructor(logger) {
-    this.logger = logger;
-    this.connection = null;
-    this.channelsByQueue = {};
+/* --- Configuração das filas: exchanges, DLX e fila principal --- */
+export async function setupQueues() {
+  const rabbitmqUsername = process.env.RABBITMQ_USERNAME || "guest";
+  const rabbitmqPassword = process.env.RABBITMQ_PASSWORD || "guest";
+  const rabbitmqHostname = process.env.RABBITMQ_HOSTNAME || "localhost";
+  const rabbitmqPort = process.env.RABBITMQ_PORT || "5672";
+  const rabbitmqVhost = process.env.RABBITMQ_VHOST || "/";
+  const amqpUrl = `amqp://${rabbitmqUsername}:${rabbitmqPassword}@${rabbitmqHostname}:${rabbitmqPort}${rabbitmqVhost}`;
 
-    this.prefetchCount = 20;
-    this.numConsumers = 100; // Consumidores paralelos por fila
-    this.maxChannels = 20;   // Máximo de canais simultâneos
-  }
+  try {
+    const connection = await amqp.connect(amqpUrl);
+    const channel = await connection.createChannel();
 
-  async connect() {
-    if (this.connection) {
-      this.logger.debug('[AMQPManager:connect] Conexão já existente. Reutilizando...');
-      return;
-    }
+    const dlxExchange = "dlx_exchange";
+    const dlxQueue = "login_queue_dlx";
+    const loginQueue = "login_queue";
 
-    this.logger.debug('[AMQPManager:connect] Iniciando conexão com RabbitMQ...');
+    console.log("[setup] Configurando exchanges e filas RabbitMQ...");
 
-    // Obtendo as variáveis de ambiente
-    const RABBITMQ_DEFAULT_USER = process.env.RABBITMQ_USERNAME;
-    const RABBITMQ_DEFAULT_PASS = process.env.RABBITMQ_PASSWORD;
-    const RABBITMQ_HOSTNAME = process.env.RABBITMQ_HOSTNAME;
-    const RABBITMQ_PORT = process.env.RABBITMQ_PORT;
-    const RABBITMQ_VHOST = process.env.RABBITMQ_VHOST;
+    await channel.assertExchange(dlxExchange, "direct", { durable: true });
+    await channel.assertQueue(dlxQueue, { durable: true });
 
-    // Criando a connection string
-    const connectionString = `amqp://${RABBITMQ_DEFAULT_USER}:${RABBITMQ_DEFAULT_PASS}@${RABBITMQ_HOSTNAME}:${RABBITMQ_PORT}${RABBITMQ_VHOST}`;
-    this.logger.debug(`[AMQPManager:connect] Connection String: ${connectionString}`);
+    try {
+      await channel.cancel('login_queue_consumer');
+    } catch {}
 
-    const retryInterval = 5000; // Intervalo de reconexão em milissegundos
+    try {
+      await channel.deleteQueue(loginQueue);
+    } catch {}
 
-    while (!this.connection) {
-      try {
-        this.connection = await amqp.connect(connectionString);
-        this.logger.info('[AMQPManager:connect] Conexão com RabbitMQ estabelecida.');
+    await new Promise(resolve => setTimeout(resolve, 1000));
 
-        // Gerenciar eventos de conexão
-        this.connection.on('close', (reason) => {
-          this.logger.error('[AMQPManager:connect] Conexão com RabbitMQ encerrada.', { reason: reason || 'Razão desconhecida' });
-          this.connection = null;
-          setTimeout(() => this.connect(), retryInterval);
-        });
-
-        this.connection.on('error', (err) => {
-          this.logger.error('[AMQPManager:connect] Erro na conexão com RabbitMQ:', { message: err.message, stack: err.stack });
-        });
-      } catch (error) {
-        this.logger.error('[AMQPManager:connect] Falha ao conectar ao RabbitMQ:', { message: error.message, stack: error.stack });
-        this.logger.info(`[AMQPManager:connect] Tentando reconectar em ${retryInterval / 1000}s...`);
-        await new Promise((resolve) => setTimeout(resolve, retryInterval));
-      }
-    }
-  }
-  async consume(queue, callback) {
-    const channel = await this.connection.createChannel();
-  
-    // Declara a fila antes de consumir mensagens
-    await channel.assertQueue(queue, { durable: true });
-  
-    channel.consume(queue, async (msg) => {
-      if (msg !== null) {
-        try {
-          const message = JSON.parse(msg.content.toString());
-          await callback(message);
-          channel.ack(msg); // Confirma a mensagem
-        } catch (error) {
-          this.logger.error(`Erro ao processar mensagem da fila ${queue}:`, error);
-          channel.nack(msg, false, false); // Rejeita a mensagem
-        }
-      }
+    await channel.assertQueue(loginQueue, {
+      durable: true,
+      arguments: {
+        "x-dead-letter-exchange": dlxExchange,
+        "x-message-ttl": 60000
+      },
     });
-  
-    // Mantém o canal aberto
-    channel.on('close', () => {
-      this.logger.error(`Canal para a fila ${queue} foi fechado.`);
-    });
-  
-    channel.on('error', (err) => {
-      this.logger.error(`Erro no canal para a fila ${queue}:`, err);
-    });
-  }
 
-  async close() {
-    if (this.connection) {
-      await this.connection.close();
-      this.connection = null;
-      this.channelsByQueue = {};
-      this.logger.info('[AMQPManager:close] Conexão e canais encerrados.');
-    }
+    console.log("[setup] Fila configurada com sucesso.");
+    
+    // Return the channel and queue name instead of closing them
+    return { channel, loginQueue };
+  } catch (error) {
+    console.error("[setup] Erro durante configuração da fila:", error);
+    process.exit(1);
   }
 }
-
-export default AMQPManager;

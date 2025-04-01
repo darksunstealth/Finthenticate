@@ -1,0 +1,46 @@
+[36m2025-04-01 13:27:35[0m [31m[ERROR][39m: [33muncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at new LoginController (file:///home/kali/login-auth/app/consumers/login/loginController.js:11:19)
+    at file:///home/kali/login-auth/app/consumers/login/app.js:22:25
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[0m
+[36m2025-04-01 13:29:54[0m [31m[ERROR][39m: [33muncaughtException: logger is not defined
+ReferenceError: logger is not defined
+    at new RedisPubSub (file:///home/kali/login-auth/app/consumers/login/services/redis/redisPublish.js:26:19)
+    at file:///home/kali/login-auth/app/consumers/login/app.js:21:22
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)[0m
+[36m2025-04-01 18:50:19[0m [31m[ERROR][39m: [33muncaughtException: unable to determine transport target for "pino-pretty"
+Error: unable to determine transport target for "pino-pretty"
+    at fixTarget (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:160:13)
+    at transport (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:130:22)
+    at normalizeArgs (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/tools.js:316:16)
+    at pino (/home/kali/login-auth/app/consumers/login/node_modules/pino/pino.js:91:28)
+    at createPinoLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-pino.js:40:14)
+    at createLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-factory.js:121:18)
+    at fastify (/home/kali/login-auth/app/consumers/login/node_modules/fastify/fastify.js:139:33)
+    at file:///home/kali/login-auth/app/consumers/login/app.js:14:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)[0m
+[36m2025-04-01 18:50:33[0m [31m[ERROR][39m: [33muncaughtException: unable to determine transport target for "pino-pretty"
+Error: unable to determine transport target for "pino-pretty"
+    at fixTarget (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:160:13)
+    at transport (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:130:22)
+    at normalizeArgs (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/tools.js:316:16)
+    at pino (/home/kali/login-auth/app/consumers/login/node_modules/pino/pino.js:91:28)
+    at createPinoLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-pino.js:40:14)
+    at createLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-factory.js:121:18)
+    at fastify (/home/kali/login-auth/app/consumers/login/node_modules/fastify/fastify.js:139:33)
+    at file:///home/kali/login-auth/app/consumers/login/app.js:14:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)[0m
+[36m2025-04-01 18:50:43[0m [31m[ERROR][39m: [33muncaughtException: unable to determine transport target for "pino-pretty"
+Error: unable to determine transport target for "pino-pretty"
+    at fixTarget (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:160:13)
+    at transport (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/transport.js:130:22)
+    at normalizeArgs (/home/kali/login-auth/app/consumers/login/node_modules/pino/lib/tools.js:316:16)
+    at pino (/home/kali/login-auth/app/consumers/login/node_modules/pino/pino.js:91:28)
+    at createPinoLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-pino.js:40:14)
+    at createLogger (/home/kali/login-auth/app/consumers/login/node_modules/fastify/lib/logger-factory.js:121:18)
+    at fastify (/home/kali/login-auth/app/consumers/login/node_modules/fastify/fastify.js:139:33)
+    at file:///home/kali/login-auth/app/consumers/login/app.js:14:17
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:578:26)[0m

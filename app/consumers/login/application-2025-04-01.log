@@ -1,0 +1,672 @@
+[36m2025-04-01 13:28:57[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 13:28:57[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 13:28:57[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 13:28:57[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 13:28:57[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: f0f950a2-d076-49cb-a7dc-0fccd8d0d5e8[0m
+[36m2025-04-01 13:28:57[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 13:28:57[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 13:41:13[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 13:41:13[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d196f775-7550-4e76-a0ce-39d1a6c05d5d[0m
+[36m2025-04-01 13:41:13[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 13:41:13[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 13:43:48[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 13:43:48[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 962c7e08-8a28-4856-b6d5-e9b1996ec3cd[0m
+[36m2025-04-01 13:43:48[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 13:43:48[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 13:46:11[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 13:46:11[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 84cc5b45-cfe5-4f2b-a6e5-889a40daeec0[0m
+[36m2025-04-01 13:46:11[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 13:46:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:03:29[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:03:29[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: a6452165-3561-412c-a344-e08a40955e35[0m
+[36m2025-04-01 14:03:29[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:03:29[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:04:28[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:04:28[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: a6452165-3561-412c-a344-e08a40955e35[0m
+[36m2025-04-01 14:04:28[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:04:28[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:09:00[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:09:00[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:09:00[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:09:00[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:11:36[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:11:41[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:11:46[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:12:02[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:12:02[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:12:02[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:12:02[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:21:40[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:21:40[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:21:40[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:21:40[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:22:09[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:22:09[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:22:09[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:22:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:24:11[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:24:11[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:24:11[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:24:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:26:00[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:26:00[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:26:00[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:26:00[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[INFO] Redis connection verified[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"0cad1712-6572-43ae-bdf9-bb30060acc4d"}}]][0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:31:09[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:31:09[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 0cad1712-6572-43ae-bdf9-bb30060acc4d[0m
+[36m2025-04-01 14:31:09[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:31:09[0m [34m[DEBUG][39m: [33m[DEBUG] Environment variables present:[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:31:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[INFO] Redis connection verified[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[BATCH RECEIVED] Login batch received:[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[INFO] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[FLAT DATA][0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[LOGIN PAYLOAD][0m
+[36m2025-04-01 14:31:59[0m [34m[DEBUG][39m: [33m[FIELDS DEBUG][0m
+[36m2025-04-01 14:31:59[0m [34m[DEBUG][39m: [33m[DEBUG] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 14:31:59[0m [31m[ERROR][39m: [33m[ERROR] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca:[0m
+[36m2025-04-01 14:31:59[0m [34m[DEBUG][39m: [33m[DEBUG] Environment variables present:[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33m[INFO] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:31:59[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 14:37:20[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 14:37:20[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 14:37:20[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result[0m
+[36m2025-04-01 14:37:20[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result[0m
+[36m2025-04-01 14:37:20[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca[0m
+[36m2025-04-01 14:37:20[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:37:20[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 14:39:47[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 14:39:47[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 14:39:47[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 14:39:47[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 14:39:47[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca[0m
+[36m2025-04-01 14:39:47[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:39:47[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 14:44:24[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 14:44:24[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 14:44:24[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 14:44:24[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 14:44:24[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca and error ReplyError: ERR syntax error[0m
+[36m2025-04-01 14:44:24[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 14:44:24[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:07:13[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:07:13[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 15:07:13[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:07:13[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:07:13[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca and error ReplyError: ERR syntax error[0m
+[36m2025-04-01 15:07:13[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:07:13[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:07:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:07:49[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 15:07:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:07:49[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:07:49[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca and error ReplyError: ERR syntax error[0m
+[36m2025-04-01 15:07:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:07:49[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:10:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:10:14[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 15:10:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:10:14[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:10:14[0m [31m[ERROR][39m: [33m[ERROR] [Login Processing] Exception during login processing for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca and error ReplyError: ERR syntax error[0m
+[36m2025-04-01 15:10:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Environment Variables] Environment variables present[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:10:14[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ef393663-e149-4673-82f0-2f71e9fb8e95"}}]][0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:12:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:12:53[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ef393663-e149-4673-82f0-2f71e9fb8e95[0m
+[36m2025-04-01 15:12:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:12:53[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 952626[0m
+[36m2025-04-01 15:12:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE2NzczLCJleHAiOjE3NDM1MTczNzN9.thkm2wj7KvLBrOb5io1JeVd3gliEXODawWtRKCXOD3k[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:12:53[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"127938f6-fdd5-40f5-9abf-c5013eac8490"}}]][0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:38:33[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:38:33[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 127938f6-fdd5-40f5-9abf-c5013eac8490[0m
+[36m2025-04-01 15:38:33[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:38:33[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 727792[0m
+[36m2025-04-01 15:38:33[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE4MzEzLCJleHAiOjE3NDM1MTg5MTN9.YjuXOlC5F1m7lAni1BgAx7oKGVp0T7m8c7CN5ixrZv4[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:38:33[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"f7bb87e6-1ef8-497b-80fc-6cc2af3fc8e2"}}]][0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:39:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:39:32[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: f7bb87e6-1ef8-497b-80fc-6cc2af3fc8e2[0m
+[36m2025-04-01 15:39:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:39:32[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 567350[0m
+[36m2025-04-01 15:39:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE4MzcyLCJleHAiOjE3NDM1MTg5NzJ9.Idgy3EmK6F93sQXR_JV0_BgcynC-6VQzRyozAyEmjlI[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:39:32[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"b6c58400-7c36-4f9a-a5b4-4082824d27ac"}}]][0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:40:52[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:40:52[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: b6c58400-7c36-4f9a-a5b4-4082824d27ac[0m
+[36m2025-04-01 15:40:52[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:40:52[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 728826[0m
+[36m2025-04-01 15:40:52[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE4NDUyLCJleHAiOjE3NDM1MTkwNTJ9.SkKXNuOPbzxJVheJISCLSJi78SSb5jl-XoE_TI_KDpg[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:40:52[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"9f6114ac-61dc-46e8-aef9-7ca6191d72fe"}}]][0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:51:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:51:11[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 9f6114ac-61dc-46e8-aef9-7ca6191d72fe[0m
+[36m2025-04-01 15:51:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:51:11[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 585885[0m
+[36m2025-04-01 15:51:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5MDcxLCJleHAiOjE3NDM1MTk2NzF9.xztd4cDCtzrsaS_wm0C6LAusnZ0xYEDnmIM-FOl2iy0[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:51:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"ff08fab5-6d2a-4094-b92e-210deea9de5c"}}]][0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:52:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:52:09[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: ff08fab5-6d2a-4094-b92e-210deea9de5c[0m
+[36m2025-04-01 15:52:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:52:09[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 938267[0m
+[36m2025-04-01 15:52:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5MTI5LCJleHAiOjE3NDM1MTk3Mjl9.wmNxUTo9Z3Uc_Yfcxie4kF6w1PD8go9R6jGa9vRrhXk[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:52:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"3407b0e8-e4e8-4b38-992f-62a18da687f5"}}]][0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:55:57[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:55:57[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 3407b0e8-e4e8-4b38-992f-62a18da687f5[0m
+[36m2025-04-01 15:55:57[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:55:57[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 967435[0m
+[36m2025-04-01 15:55:57[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5MzU3LCJleHAiOjE3NDM1MTk5NTd9.XNdLln8wYK_keg3qinri5qTvimh_cwFYj3qj7UgMBIQ[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:55:57[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"3407b0e8-e4e8-4b38-992f-62a18da687f5"}}]][0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:59:10[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:59:10[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 3407b0e8-e4e8-4b38-992f-62a18da687f5[0m
+[36m2025-04-01 15:59:10[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:59:10[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 435728[0m
+[36m2025-04-01 15:59:10[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5NTUwLCJleHAiOjE3NDM1MjAxNTB9.QiQnDXCmphO6OE6T5SqBUhoSMUesPWv2zFKUcT6yHYg[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:59:10[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"c788f68d-3542-4551-b2a3-3964d71d8d92"}}]][0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 15:59:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 15:59:41[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: c788f68d-3542-4551-b2a3-3964d71d8d92[0m
+[36m2025-04-01 15:59:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 15:59:41[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 335189[0m
+[36m2025-04-01 15:59:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5NTgxLCJleHAiOjE3NDM1MjAxODF9.Ddnske_TOYxUuGTvsmAAVyMBtx82TVNgXtZvKBPPOa8[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 15:59:41[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"c788f68d-3542-4551-b2a3-3964d71d8d92"}}]][0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:02:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:02:32[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: c788f68d-3542-4551-b2a3-3964d71d8d92[0m
+[36m2025-04-01 16:02:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:02:32[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 960091[0m
+[36m2025-04-01 16:02:32[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTE5NzUyLCJleHAiOjE3NDM1MjAzNTJ9.XkGv2kxDWjwFoxqMh1fX3qE3Y3HKvWUA_iBw_iTnaag[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:02:32[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:07:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:07:43[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:07:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:07:43[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 267317[0m
+[36m2025-04-01 16:07:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMDYzLCJleHAiOjE3NDM1MjA2NjN9.t89Kub35LHpgdvNpJpdK90XAninfqrzqWJCqsAx8Ih0[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:07:43[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:10:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:10:16[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:10:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:10:16[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 141087[0m
+[36m2025-04-01 16:10:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMjE2LCJleHAiOjE3NDM1MjA4MTZ9.Nnf9hTJnq91hJ17Uesrn--7IGz-05lgc0hk4Owue_8A[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:10:16[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:10:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:10:49[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:10:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:10:49[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 943241[0m
+[36m2025-04-01 16:10:49[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMjQ5LCJleHAiOjE3NDM1MjA4NDl9.lvXqFySIU1iKdyQRMNmRRscKaHEWmIFQlmUYOSsqWkc[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:10:49[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:11:44[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:11:44[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:11:44[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:11:44[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 736764[0m
+[36m2025-04-01 16:11:44[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMzA0LCJleHAiOjE3NDM1MjA5MDR9.DlGTBK6WgrJejgy9vVM37jA80IQmQnvJEiOQlliSb0A[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:11:44[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:12:04[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:12:04[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:12:04[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:12:04[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 273184[0m
+[36m2025-04-01 16:12:04[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMzI0LCJleHAiOjE3NDM1MjA5MjR9.2sKpDK89xgRuJNwOGvjPXRQAZneIwb4vzYviS1JDCUQ[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:12:04[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:12:31[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:12:31[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:12:31[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:12:31[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 639768[0m
+[36m2025-04-01 16:12:31[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMzUxLCJleHAiOjE3NDM1MjA5NTF9.CHT-F3oQQiHQbilML-IXE-87biw4DXDFOzNNxGN4wY8[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:12:31[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:12:51[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:12:51[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:12:51[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:12:51[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 566113[0m
+[36m2025-04-01 16:12:51[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwMzcxLCJleHAiOjE3NDM1MjA5NzF9.q66m3iOkmhPX9zXpJX_0b5CRsmQVLtpC5UIGfi_QQfQ[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:12:51[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:13:48[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:13:48[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:13:48[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:13:48[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 385095[0m
+[36m2025-04-01 16:13:48[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwNDI4LCJleHAiOjE3NDM1MjEwMjh9.NQrLcGeB9gPSwwbpkP3nfkK1SK4wQ7yzEYLgMbH5O9w[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:13:48[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"d2c9ecb4-7437-4801-8ca6-e48ec6923fba"}}]][0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:14:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:14:14[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: d2c9ecb4-7437-4801-8ca6-e48ec6923fba[0m
+[36m2025-04-01 16:14:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:14:14[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 636660[0m
+[36m2025-04-01 16:14:14[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwNDU0LCJleHAiOjE3NDM1MjEwNTR9.JAnFwRCPZlQgT7FbC9LDfab5KgEMwkYqIN3iLdmVCaE[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:14:14[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"e5150d79-c20a-43d0-b246-c74523e2dc3c"}}]][0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:14:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:14:43[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: e5150d79-c20a-43d0-b246-c74523e2dc3c[0m
+[36m2025-04-01 16:14:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:14:43[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 405586[0m
+[36m2025-04-01 16:14:43[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwNDgzLCJleHAiOjE3NDM1MjEwODN9.gi2GiFCm8uNodWtLNyJ_xlmi1LCbdI05NFvDlDmW7xE[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:14:43[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"e5150d79-c20a-43d0-b246-c74523e2dc3c"}}]][0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:21:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:21:41[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: e5150d79-c20a-43d0-b246-c74523e2dc3c[0m
+[36m2025-04-01 16:21:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:21:41[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 498940[0m
+[36m2025-04-01 16:21:41[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIwOTAxLCJleHAiOjE3NDM1MjE1MDF9.bQzicMkw3MqHmv7lH6QTrgh637_05k-2xEU0dTGNhw4[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:21:41[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"e5150d79-c20a-43d0-b246-c74523e2dc3c"}}]][0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 16:25:34[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 16:25:34[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: e5150d79-c20a-43d0-b246-c74523e2dc3c[0m
+[36m2025-04-01 16:25:34[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 16:25:34[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 398871[0m
+[36m2025-04-01 16:25:34[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTIxMTM0LCJleHAiOjE3NDM1MjE3MzR9.st5PATduiiCHldryxsu5QO3KET_LGrIFhdjcqzlutpk[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 16:25:34[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"b47c01bb-82fd-42d8-8b0a-094d8a836397"}}]][0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:01:36[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:01:36[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: b47c01bb-82fd-42d8-8b0a-094d8a836397[0m
+[36m2025-04-01 18:01:36[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:01:36[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 856686[0m
+[36m2025-04-01 18:01:36[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI2ODk2LCJleHAiOjE3NDM1Mjc0OTZ9.Sg1zdVuszGQKWacOebMz-vAeaaujhNYXa5momfK35vc[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:01:36[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"fallback-1743527255261-54dnexgm"}}]][0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:07:40[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:07:40[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: fallback-1743527255261-54dnexgm[0m
+[36m2025-04-01 18:07:40[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:07:40[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 448607[0m
+[36m2025-04-01 18:07:40[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI3MjYwLCJleHAiOjE3NDM1Mjc4NjB9.uCE1KnrKchl5SolC2CY1tW0sxLJ7XbKw-n-M1vgen28[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 0 assinantes.[0m
+[36m2025-04-01 18:07:40[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"fa4414db-8739-4213-995d-07b321bf0d3d"}}]][0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:12:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:12:11[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: fa4414db-8739-4213-995d-07b321bf0d3d[0m
+[36m2025-04-01 18:12:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:12:11[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 140238[0m
+[36m2025-04-01 18:12:11[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI3NTMxLCJleHAiOjE3NDM1MjgxMzF9.5dpOg8mbyqxOfb-Eu4OvLyhQIvsBgzVKY3VTSymUUKA[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:12:11[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"4b2ccc2c-e498-4a19-a263-593a5ca6d47c"}}]][0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:25:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:25:09[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 4b2ccc2c-e498-4a19-a263-593a5ca6d47c[0m
+[36m2025-04-01 18:25:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:25:09[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 711930[0m
+[36m2025-04-01 18:25:09[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI4MzA5LCJleHAiOjE3NDM1Mjg5MDl9.rlrekm1Qq5UTQ7VX5CuI8fP0P0ZXMloGxjyVdvjYPmk[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:25:09[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"edeca814-d4f1-4423-bc3d-b49d71e44d1c"}}]][0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:29:55[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:29:55[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: edeca814-d4f1-4423-bc3d-b49d71e44d1c[0m
+[36m2025-04-01 18:29:55[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:29:55[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 142031[0m
+[36m2025-04-01 18:29:55[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI4NTk1LCJleHAiOjE3NDM1MjkxOTV9.xaIALUJOy3WkJc8Gr35tJ5e05v3siPzlP3TC1NGanyQ[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:29:55[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"5ac10b90-5902-48c4-ad33-0ce4668028b8"}}]][0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:38:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:38:16[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 5ac10b90-5902-48c4-ad33-0ce4668028b8[0m
+[36m2025-04-01 18:38:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:38:16[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 114210[0m
+[36m2025-04-01 18:38:16[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI5MDk2LCJleHAiOjE3NDM1Mjk2OTZ9.ydtTYlcIGjWdcFxlLv-h3F_5xjIeVKayhQtcjnW9IbE[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:38:16[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"fallback-1743529160541-i75irgtk"}}]][0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:39:25[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:39:25[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: fallback-1743529160541-i75irgtk[0m
+[36m2025-04-01 18:39:25[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:39:25[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 634712[0m
+[36m2025-04-01 18:39:25[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI5MTY1LCJleHAiOjE3NDM1Mjk3NjV9.y6h1JUyjiq8OVoyCGXyc_zebbhr2KUlCnDhM8BZFfWw[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:39:25[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Redis Connection] Redis connection verified[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Login batch received[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] [[{"data":{"email":"samirsauma@gmail.com","deviceId":"Win32 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0 | en-GB | Europe/London","userId":"db3432ad-d6f4-411d-a2dd-d9f7bda823ca","connectionId":"03d2c2f4-4169-4a1c-8446-92e9707030b5"}}]][0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Batch Processing] Flat data[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Payload Processing] Login payload[0m
+[36m2025-04-01 18:41:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Fields Debug] Extracted fields[0m
+[36m2025-04-01 18:41:53[0m [34m[DEBUG][39m: [33m[DEBUG] [LOGIN] Processing login for user: samirsauma@gmail.com, userId: db3432ad-d6f4-411d-a2dd-d9f7bda823ca, connectionId: 03d2c2f4-4169-4a1c-8446-92e9707030b5[0m
+[36m2025-04-01 18:41:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Device Verification] Device verification check result: false[0m
+[36m2025-04-01 18:41:53[0m [34m[DEBUG][39m: [33m[DEBUG] [2FA Status] 2FA status check result: false[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Email Service] Sending verification code to samirsauma@gmail.com: 755303[0m
+[36m2025-04-01 18:41:53[0m [34m[DEBUG][39m: [33m[DEBUG] [Temporary Token] Temporary token for unverified device generated for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJkYjM0MzJhZC1kNmY0LTQxMWQtYTJkZC1kOWY3YmRhODIzY2EiLCJlbWFpbCI6InNhbWlyc2F1bWFAZ21haWwuY29tIiwiZGV2aWNlSWQiOiJXaW4zMiB8IE1vemlsbGEvNS4wIChXaW5kb3dzIE5UIDEwLjA7IFdpbjY0OyB4NjQpIEFwcGxlV2ViS2l0LzUzNy4zNiAoS0hUTUwsIGxpa2UgR2Vja28pIENocm9tZS8xMzQuMC4wLjAgU2FmYXJpLzUzNy4zNiBFZGcvMTM0LjAuMC4wIHwgZW4tR0IgfCBFdXJvcGUvTG9uZG9uIiwiaWF0IjoxNzQzNTI5MzEzLCJleHAiOjE3NDM1Mjk5MTN9.HAjNli7AiyD5NPol2sYHZRR9MMvd1HpicbaH1mBjoMM[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [New Device] New device detected for user db3432ad-d6f4-411d-a2dd-d9f7bda823ca. Verification email sent.[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33m[INFO] [Redis Pipeline] Redis pipeline operations executed successfully.[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33mMensagem publicada no canal "user-events" para 1 assinantes.[0m
+[36m2025-04-01 18:41:53[0m [32m[INFO][39m: [33mMensagem publicada no canal "login_results" para 0 assinantes.[0m

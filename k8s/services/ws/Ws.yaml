@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: websocket-server
 spec:
-  replicas: 3 # Número de réplicas para escalabilidade horizontal
+  replicas: 3
   selector:
     matchLabels:
       app: websocket-server
@@ -18,15 +18,17 @@ spec:
           env:
             - name: PORT
               value: "8080"
+            - name: REDIS_URL
+              value: redis://redis.default.svc.cluster.local:6379
           ports:
             - containerPort: 8080
           resources:
             requests:
-              memory: "256Mi" # Memória mínima garantida
-              cpu: "250m"     # CPU mínima garantida
+              memory: "256Mi"
+              cpu: "250m"
             limits:
-              memory: "512Mi" # Memória máxima permitida
-              cpu: "500m"     # CPU máxima permitida
+              memory: "512Mi"
+              cpu: "500m"
       imagePullSecrets:
         - name: regcred
 ---

@@ -55,29 +55,23 @@ class AMQPManager {
     }
   }
 
-  // Método para obter ou criar um canal para uma fila específica
+  // Obtém ou cria um canal para uma fila específica, apenas verificando sua existência
   async getChannelForQueue(queueName) {
-    // Certifique-se de que estamos conectados
     if (!this.connection) {
       await this.connect();
     }
 
-    // Verifica se já existe um canal para a fila
     if (this.channelsByQueue[queueName]) {
       return this.channelsByQueue[queueName];
     }
 
     try {
-      // Cria um novo canal
       const channel = await this.connection.createChannel();
       
-      // Configura o prefetch para controlar o consumo
       await channel.prefetch(this.prefetchCount);
       
-      // Declara a fila para garantir que ela existe
       await channel.assertQueue(queueName, { durable: true });
       
-      // Trata eventos do canal
       channel.on('close', () => {
         this.logger.warn(`[getChannelForQueue] Canal para a fila ${queueName} foi fechado. Será recriado na próxima operação.`);
         delete this.channelsByQueue[queueName];
@@ -88,9 +82,7 @@ class AMQPManager {
         delete this.channelsByQueue[queueName];
       });
 
-      // Armazena o canal para reutilização
       this.channelsByQueue[queueName] = channel;
-      
       return channel;
     } catch (error) {
       this.logger.error(`[getChannelForQueue] Erro ao criar canal para a fila ${queueName}:`, error);
@@ -115,43 +107,8 @@ class AMQPManager {
     });
   }
 
-  async sendToQueue(queueName, messageObj) {
-    try {
-      // Certifique-se de que estamos conectados
-      if (!this.connection) {
-        await this.connect();
-      }
-
-      // Log da mensagem antes de enviar
-      this.logger.debug(`[sendToQueue] Mensagem a ser enviada: ${JSON.stringify(messageObj, null, 2)}`);
-
-      // Obtenção do canal da fila
-      const channel = await this.getChannelForQueue(queueName);
-
-      // Serialização e envio da mensagem
-      const sent = channel.sendToQueue(
-        queueName,
-        Buffer.from(JSON.stringify(messageObj)),
-        { persistent: true }
-      );
-
-      if (!sent) {
-        this.logger.warn(`[sendToQueue] Falha ao enviar mensagem para a fila '${queueName}'.`);
-        return false;
-      }
-
-      this.logger.info(`[sendToQueue] Mensagem enviada para a fila '${queueName}' com sucesso.`);
-      return true;
-    } catch (error) {
-      this.logger.error(`[sendToQueue] Erro ao enviar mensagem para a fila '${queueName}': ${error.message}`);
-      this.logger.debug(`[sendToQueue] Stacktrace do erro: ${error.stack}`);
-      throw error;
-    }
-  }
-
   async close() {
     if (this.connection) {
-      // Fecha todos os canais primeiro
       for (const queueName in this.channelsByQueue) {
         try {
           await this.channelsByQueue[queueName].close();
@@ -160,7 +117,6 @@ class AMQPManager {
         }
       }
 
-      // Fecha a conexão
       await this.connection.close();
       this.connection = null;
       this.channelsByQueue = {};
