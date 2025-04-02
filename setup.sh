@@ -3,12 +3,12 @@
 set -e
 
 IMAGES=(
-  samirsauma121/login-consumer
-  samirsauma121/login-producer
-  samirsauma121/register-producer
-  samirsauma121/register-consumer
-  samirsauma121/finthenticate
-  samirsauma121/websocket-server
+  <u docker user >/login-consumer
+  <u docker user >/login-producer
+  <u docker user >/register-producer
+  <u docker user >/register-consumer
+  <u docker user >/finthenticate
+  <u docker user >/websocket-server
 )
 
 PATHS=(

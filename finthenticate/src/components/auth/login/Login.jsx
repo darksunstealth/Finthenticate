@@ -177,41 +177,335 @@ export default function Login() {
     }
   };
 
+  const wsStatusClass = () => {
+    if (connecting) return "ws-status connecting";
+    if (connectionId && !connecting) return "ws-status connected";
+    if (msg.includes("Erro")) return "ws-status error";
+    return "ws-status";
+  };
+
   return (
     <div className="login-container">
-      <h2>Login</h2>
-      <form onSubmit={handleLogin}>
-        <div className="form-group">
-          <label htmlFor="email">Email</label>
-          <input
-            id="email"
-            type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="Seu email"
-            required
-          />
+      <div className="login-card">
+        <div className="login-header">
+          <h1>Bem-vindo de volta</h1>
+          <p>Por favor, faça login para continuar</p>
         </div>
-        <div className="form-group">
-          <label htmlFor="password">Senha</label>
-          <input
-            id="password"
-            type="password"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            placeholder="Sua senha"
-            required
-          />
+
+        {msg && (
+          <div className={msg.includes("Erro") ? "error-message" : "message"}>
+            {msg}
+          </div>
+        )}
+
+        <form className="login-form" onSubmit={handleLogin}>
+          <div className="form-group">
+            <label htmlFor="email">Email</label>
+            <input
+              id="email"
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Seu email"
+              required
+            />
+          </div>
+          
+          <div className="form-group">
+            <label htmlFor="password">Senha</label>
+            <input
+              id="password"
+              type="password"
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
+              placeholder="Sua senha"
+              required
+            />
+          </div>
+
+          <div className="form-options">
+            <div className="remember-me">
+              <input type="checkbox" id="remember" />
+              <label htmlFor="remember">Lembrar de mim</label>
+            </div>
+            <a href="/forgot-password" className="forgot-password">Esqueceu a senha?</a>
+          </div>
+
+          <button 
+            type="submit" 
+            className="login-button"
+            disabled={waitingForResponse || connecting}
+          >
+            {waitingForResponse ? "Processando..." : "Entrar"}
+          </button>
+        </form>
+
+        <div className="login-footer">
+          <p>Não tem uma conta? <a href="/register">Cadastre-se</a></p>
         </div>
-        <button 
-          type="submit" 
-          className="login-button"
-          disabled={waitingForResponse}
-        >
-          {waitingForResponse ? "Processando..." : "Entrar"}
-        </button>
-      </form>
-      {msg && <p className="message">{msg}</p>}
+
+        <div className={wsStatusClass()}>
+          <span className="status-dot"></span>
+          {connecting ? "Conectando..." : 
+           connectionId ? "Conectado" : 
+           "Erro de conexão"}
+        </div>
+      </div>
     </div>
   );
 }
+
+const styles = `
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  padding: 20px;
+}
+
+.login-card {
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 450px;
+  padding: 40px;
+  transition: transform 0.3s ease;
+}
+
+.login-card:hover {
+  transform: translateY(-5px);
+}
+
+.login-header {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.login-header h1 {
+  color: #333;
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+
+.login-header p {
+  color: #666;
+  font-size: 16px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  margin-bottom: 6px;
+  color: #555;
+  font-weight: 500;
+}
+
+.form-group input {
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.form-group input:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 2px rgba(102, 126, 234, 0.1);
+}
+
+.form-group input.error {
+  border-color: #e53e3e;
+}
+
+.error-text {
+  color: #e53e3e;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.form-options {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.remember-me label {
+  color: #555;
+  font-size: 14px;
+}
+
+.forgot-password {
+  color: #667eea;
+  font-size: 14px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.forgot-password:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.login-button {
+  background: linear-gradient(to right, #667eea, #764ba2);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 15px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: opacity 0.3s, transform 0.3s;
+  margin-top: 10px;
+}
+
+.login-button:hover {
+  opacity: 0.9;
+  transform: translateY(-2px);
+}
+
+.login-button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
+  transform: none;
+}
+
+.login-footer {
+  margin-top: 30px;
+  text-align: center;
+  color: #666;
+}
+
+.login-footer a {
+  color: #667eea;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.login-footer a:hover {
+  color: #764ba2;
+  text-decoration: underline;
+}
+
+.message {
+  background-color: #f0f7ff;
+  color: #3182ce;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-left: 3px solid #3182ce;
+}
+
+.error-message {
+  background-color: #FEECF0;
+  color: #e53e3e;
+  padding: 10px 15px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-left: 3px solid #e53e3e;
+}
+
+.ws-status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  margin-top: 8px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.ws-status.connected {
+  color: #10b981;
+}
+
+.ws-status.connecting {
+  color: #f59e0b;
+}
+
+.ws-status.error {
+  color: #ef4444;
+}
+
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+.connected .status-dot {
+  background-color: #10b981;
+  box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+  animation: pulse 2s infinite;
+}
+
+.connecting .status-dot {
+  background-color: #f59e0b;
+  animation: blink 1s infinite;
+}
+
+.error .status-dot {
+  background-color: #ef4444;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.4);
+  }
+  70% {
+    box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+  }
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}
+
+@media (max-width: 500px) {
+  .login-card {
+    padding: 30px 20px;
+  }
+  
+  .form-options {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+}
+`;
+
+// Adiciona os estilos ao head do documento
+const styleElement = document.createElement('style');
+styleElement.innerHTML = styles;
+document.head.appendChild(styleElement);
