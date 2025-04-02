@@ -1,9 +1,0 @@
-[36m2025-03-31 13:38:36[0m [32m[INFO][39m: [33mIniciando o servidor Fastify...[0m
-[36m2025-03-31 13:38:36[0m [32m[INFO][39m: [33mPlugin CORS registrado com sucesso.[0m
-[36m2025-03-31 13:38:36[0m [32m[INFO][39m: [33mRotas de autenticação registradas em /api/v1/auth.[0m
-[36m2025-03-31 13:38:36[0m [32m[INFO][39m: [33m🚀 Servidor escutando em http://0.0.0.0:3001[0m
-[36m2025-03-31 13:44:56[0m [32m[INFO][39m: [33mStarting user registration process[0m
-[36m2025-03-31 13:44:56[0m [32m[INFO][39m: [33mRegistration added to batch.[0m
-[36m2025-03-31 13:44:57[0m [32m[INFO][39m: [33mProcessing batch with 1 registrations.[0m
-[36m2025-03-31 13:44:57[0m [32m[INFO][39m: [33mFound 0 duplicate emails and 1 valid registrations.[0m
-[36m2025-03-31 13:44:57[0m [32m[INFO][39m: [33mBatch sent to AMQP queue with 1 registrations.[0m
