@@ -1,4 +1,4 @@
-# 🔐 Finthenticate — Real-Time, Distributed Login Engine for Modern SaaS
+# 🔐 Finthenticate — Real-time login and session engine for modern SaaS
 
 ![Build](https://img.shields.io/badge/build-passing-brightgreen)
 ![Redis](https://img.shields.io/badge/cache-redis-red)
@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Platform](https://img.shields.io/badge/platform-nodejs-yellow)
 
-> 🔐 Finthenticate — Real-time login system for SaaS, fintechs, and platforms.
+> Handle real-time user login and session tracking in high-performance SaaS platforms.
 
 
 ---
