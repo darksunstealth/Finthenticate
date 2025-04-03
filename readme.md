@@ -7,7 +7,8 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Platform](https://img.shields.io/badge/platform-nodejs-yellow)
 
-> Realtime login. Session-aware. Ultra-performant. Built for SaaS, fintechs, and platforms that care about user state, speed, and microservice architecture.
+> 🔐 Finthenticate — Real-time login system for SaaS, fintechs, and platforms.
+
 
 ---
 
