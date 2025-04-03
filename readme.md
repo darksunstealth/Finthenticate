@@ -7,7 +7,7 @@
 ![License](https://img.shields.io/badge/license-MIT-lightgrey)
 ![Platform](https://img.shields.io/badge/platform-nodejs-yellow)
 
-> Handle real-time user login and session tracking in high-performance SaaS platforms.
+>Real-time login and session tracking system.
 
 
 ---
