@@ -168,7 +168,10 @@ To delete pods:
 ```bash
 kubectl delete pods -l app=${image-name}
 ```
-
+to expose frontend 
+```
+kubectl port-forward svc/nginx-load-balancer 8080:80
+``` 
 ---
 
 ## 📜 License
